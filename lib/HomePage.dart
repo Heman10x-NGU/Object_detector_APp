@@ -77,13 +77,13 @@ class _HomePageState extends State<HomePage> {
 
   @override
   void initState() {
-    // TODO: implement initState
+    
     super.initState();
     loadModel();
   }
   @override
   void dispose() async {
-    // TODO: implement dispose
+    
     super.dispose();
 
     await Tflite.close();
